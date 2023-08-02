@@ -1,7 +1,24 @@
-#main_title {
-    background-color: #B1D5D1;
-}
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
-#prof_img {
-    border-radius: 20%;
+body{
+    background-image: url('./img/ wasi.jpeg');
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+.update{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.line{
+    border-bottom: 10px double #8F77B5;
+}
+.center{
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(255, 255, 255, 0.5);
 }

@@ -1,114 +1,104 @@
 <!DOCTYPE html5>
 <html lang="ja">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Otsuma-Portfolio-Sample</title>
+    <title>Portfolio-Nakajo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <div class="pt-5 pb-3" id="main_title">
-        <h1 class="text-center" id="main_title_h1">Portfolio</h1>
-    </div>
-    <main class="container" style="min-height: 75vh;">
+    <h1>Information</h1>
+    <p class="update">最終更新日: 2023年8月3日</p>
+    <div class="line"></div>
+    <div class="center">
         <div class="container my-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4 p-2 text-center">
-                        <img src="./img/富士山.jpg" width="100%" id="prof_img">
+            <h2>About</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>中城裕之</h5>
+                            <p>ナカジョウヒロユキ</p>
+                            <p>東京都出身</p>
+                        </div>
                     </div>
-                    <div class="col-md-8 p-2">
-                        <!-- テーブルを使ってシンプルに見やすくしてみる -->
-                        <table class="table table-striped table-hover">
-                            <tbody>
-                                <tr>
-                                    <th class="col-3">My Information</th>
-                                    <th class="col-9"></th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h5 class="p-1">Name</h5>
-                                    </td>
-                                    <td>
-                                        <h5 class="p-1">中城 裕之  Nakajo Hiroyuki
-
-                                        </h5>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h5 class="p-1">所属</h5>
-                                    </td>
-                                    <td>
-                                        <h5 class="p-1">武蔵野大学データサイエンス学部データサイエンス学科</h5>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h5 class="p-1">趣味</h5>
-                                    </td>
-                                    <td>
-                                        <h5 class="p-1">旅行</h5>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>経歴</h5>
+                            <p>武蔵野大学データサイエンス学部データサイエンス学科所属</p>
+                            <h5>趣味</h5>
+                            <p>旅行、歴史</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="container my-5">
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-4 p-sm-1 p-4">
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/カヌー.jpg" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5 class="border-bottom">学生時代</h5>
-                                <p>
-                                    カヌー部に所属<br>
-                                    同期や後輩と同じ船に乗り、息を合わせてレースに臨みます。<br>
-                                    体力や対人スキルが養われました
-                                </p>
-                            </div>
+            <h2>Activity</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>研究</h5>
+                            <p>古文-現代文の機械翻訳</p>
+                            <p>Transformerを用いて<br>機械翻訳モデルを構築</p>
+                            <p>1年次成果発表で企業賞受賞</p>
+                            <a href="./pdf/研究成果報告_中城.pdf">資料</a>
+                            <a href="">GitHub</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/古文書.jpeg" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5 class="border-bottom">研究</h5>
-                                <p>
-                                    <h6>古文-現代文のニューラル機械翻訳</h6>
-                                    Transformerを用い、源氏物語を学習データとした翻訳モデルを構築<br>
-                                    1年後期の成果発表で企業賞を頂きました。<br>
-                                    2年以降も研究を続け、モデルの精度改良や実用化を目指しています
-                                </p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>サークル</h5>
+                            <p>学部内研究サークルに所属</p>
+                            <p>研究テーマ:<br>画像認識による堤防のひび検出</p>
+                            <p>オープンキャンパスに研究成果を出展</p>
+                            <a href="">サークル公式サイト</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <h5 class="border-bottom mb-3">SNS</h5>
-                                <a class="btn btn-primary" id="sns_links" href="https://twitter.com/n_a_kajo">Twitter</a>
-                            </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>Qiita</h5>
+                            <p>機械学習やGitHubについて<br>3本の記事を投稿</p>
+                            <a href="https://qiita.com/jo_nakajo">Qiita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Production</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>【京都開催】技育CAMPキャラバンハッカソン</h5>
+                            <p>2023年4月29日開催</p>
+                            <p>同期5名で参加</p>
+                            <a>イベントページ</a>
+                            <a>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p2">
+                        <div class="card-body">
+                            <h5>【金沢開催】技育CAMPキャラバンハッカソン</h5>
+                            <p>2023年7月29日開催</p>
+                            <p>同期5名で参加</p>
+                            <p>企業賞を受賞</p>
+                            <a>イベントページ</a>
+                            <a>GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-
-    <footer class="footer mt-auto text-center p-1" style="background-color: #008F7E;">
-        <div class="container my-2">
-            <p class="text-center" style="color: #ffffff;">
-                ©︎ 2023 Hiroyuki-Nakajo<br>
-            </p>
-        </div>
-    </footer>
+    </div>
 </body>
-
-</html>
