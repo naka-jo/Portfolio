@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body{
+    background-image: url('./img/ wasi.jpeg');
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.update{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.line{
+    border-bottom: 10px double #8F77B5;
+}
