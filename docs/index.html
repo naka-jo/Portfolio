@@ -1,165 +1,258 @@
-<!DOCTYPE html5>
-<html lang="ja">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Otsuma-Portfolio-Sample</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio-Nakajo</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body>
-    <div class="pt-5 pb-3" id="main_title">
-        <h1 class="text-center" id="main_title_h1">Information</h1>
-    </div>
-    <p class="update">最終更新日: 2023年8月3日</p>
-    <div class="line"></div>
-    <main class="container" style="min-height: 75vh;">
-        <div class="container my-5">
-            <div class="container my-5">
-                <h2>About</h2>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-4 p-sm-1 p-4">
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <h5>中城裕之</h5>
-                                <p>ナカジョウヒロユキ</p>
-                                <p>東京都出身</p>
-                                <p>大学2年生 26卒</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <h5>経歴</h5>
-                                <p>武蔵野大学<br>データサイエンス学部データサイエンス学科</p>
-                                <h5>趣味</h5>
-                                <p>旅行、歴史</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <h5>技術</h5>
-                                <p>Python</p>
-                                <p>HTML/CSS</p>
-                                <p>機械学習</p>
-                                <p>自然言語処理</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2>Activity</h2>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-4 p-sm-1 p-4">
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/古文書.jpeg" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5>研究</h5>
-                                <p>古文-現代文の機械翻訳</p>
-                                <p>Transformerを用いて<br>機械翻訳モデルを構築</p>
-                                <p>1年次成果発表で企業賞受賞</p>
-                                <a href="./pdf/研究成果報告_中城.pdf">資料</a>
-                                <a href="">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/堤防.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5>サークル</h5>
-                                <p>学部内研究サークルに所属</p>
-                                <p>研究テーマ:<br>画像認識による堤防のひび検出</p>
-                                <p>YOLOv5で自作モデルを構築</p>
-                                <p>オープンキャンパスに研究成果を出展</p>
-                                <a href="">サークル公式サイト</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/qiita.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5>Qiita</h5>
-                                <p>機械学習やGitHubについて<br>3本の記事を投稿</p>
-                                <a href="https://qiita.com/jo_nakajo">Qiita</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2>Production</h2>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-4 p-sm-1 p-4">
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/ドラクサ.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5>【京都開催】技育CAMPハッカソン</h5>
-                                <p>2023年4月29日開催</p>
-                                <p>同期5名で参加</p>
-                                <p>朝の準備を手助けするwebアプリ<br>「DORAXA」を開発</p>
-                                <p>HTML/CSSを担当</p>
-                                <a href="https://talent.supporterz.jp/events/0a2e9202-83f6-461e-a988-b0cd99e00a88/">イベントページ</a>
-                                <a href="https://twitter.com/geek_pjt/status/1652221952034222081">発表の様子</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/クーポン.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5>【金沢開催】技育CAMPハッカソン</h5>
-                                <p>2023年7月29日開催</p>
-                                <p>同期5名で参加</p>
-                                <p>企業賞を受賞</p>
-                                <p>クーポン管理webアプリ「qpON→GO」を開発</p>
-                                <p>データベース構築、CSSを担当</p>
-                                <a href="https://talent.supporterz.jp/events/022464b2-136e-4d26-b1ae-f2d6783d4259/">イベントページ</a>
-                                <a href="https://twitter.com/geek_pjt/status/1685231448943734785">受賞の様子</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./img/大河診断.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5>おすすめ大河ドラマ診断アプリ</h5>
-                                <p>ユーザの好みからおすすめの大河ドラマを診断</p>
-                                <p>streamlit版、HTML版を制作 バックエンドはPythonで構築</p>
-                                <a href="https://naka-jo-streamlit-site-site-0e2q4l.streamlit.app/">streamlit版(体験可能)</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2>Contact</h2>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-4 p-sm-1 p-4">
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <a href="https://twitter.com/n_a_kajo"><img src="./img/x.jpeg"  class="card-img-top" alt="thumbnail"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <a href="https://github.com/naka-jo"><img src="./img/github.png"  class="card-img-top" alt="thumbnail"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <div class="card-body">
-                                <a href="https://www.wantedly.com/id/nakajo_muds"><img src="./img/wantedly.jpeg"  class="card-img-top" alt="thumbnail"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-</body>
 
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href="#top">Information</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#top">Top</a></li>
+            <li class="gnav-item"><a href="#activity">Activity</a></li>
+            <li class="gnav-item"><a href="#skill">Skill</a></li>
+            <li class="gnav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">中城 裕之<br>Hiroyuki Nakajo</p>
+          <br>
+          <ul>
+            <li>都立江戸川高校卒</li>
+            <li>武蔵野大学データサイエンス学部データサイエンス学科</li>
+            <li>学士3年生 26卒</li>
+          </ul>
+          <p class="mv-text">
+            データ分析にやりがいを感じており、データサイエンティスト・データアナリストを目指し学習を続けています。
+            <br>大学では研究系学生団体に所属し、現在は部長を務めています。部員の意見を聞き、時に助けられながら運営を行なっています。
+
+          </p>
+          <br>
+          <img src="./img/image.jpg">
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- activity -->
+      <section class="works section" id="activity">
+        <div class="container">
+          <h2 class="title">Activity</h2>
+          <div class="works-list">
+            <div class="works-item">
+              <div class="works-img"><img src="./img/古文書.jpg" alt="" /></div>
+              <p class="works-name">研究テーマ: 古文から現代文への機械翻訳</p>
+              <p class="works-info">
+                源氏物語の原文・訳文を用いて独自の対訳コーパスを作成
+                <br>Transformerを用いて翻訳モデルを構築した
+                <br>1学年末の成果発表会で企業賞を受賞
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/BohPJ.jpg" alt="" /></div>
+              <p class="works-name">研究系学生団体「BohPJ」</p>
+              <p class="works-info">
+                BohPJはデータサイエンス学部の有志がデータサイエンスを学び
+                <br>学習成果を研究などでアウトプットする団体
+                <br>1学年4月から活動を開始し、6月、8月に開催されたオープンキャンパスにて研究成果を高校生に発表した
+                <br><a class="works-info" href="https://drive.google.com/file/d/1Km4LZgkGCgKxgiR6dgOT_QuTO0BjiSBP/view?usp=sharing">発表スライドはこちら</a>
+                <br>2学年後期からはグループで音声処理に関する研究を進めている
+                <br>2学年では会計を、3学年では部長を務め団体の運営を担っている
+                <br><a class="works-info" href="https://boh-pj-website-fgvd.vercel.app/">団体ホームページはこちら</a>
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/株価.jpg" alt="" /></div>
+              <p class="works-name">インターンシップ-株式会社QUICK</p>
+              <p class="works-info">
+                大学と合同開催の、株式会社QUICK様のインターンシップに参加
+                <br>企業の統合報告書や株価の分析を行い、最終発表では企業賞を頂いた
+                <br>生データの分析やデータサイエンティストの方からのフィードバックなど、貴重な経験となった
+              </p>
+            </div>
+          </div>
+          <br>
+          <br>
+          <p class="subtitle">ハッカソン</p>
+          <div class="works-list">
+            <div class="works-item">
+              <div class="works-img"><img src="./img/つくば.jpg" alt="" /></div>
+              <p class="works-name">アフターコロナ×AI Hackathonで最優秀賞を受賞</p>
+              <p class="works-info">
+                2023年2月につくばで行われたオフラインハッカソンに参加
+                <br>バックエンドを担当し、OpenCVとYOLOv5を用いて人の顔から年齢と感情を推測するプログラムを作成した
+                <br>審査の結果最優秀賞を受賞することができた
+                <br><a class="works-info" href="https://co-en-event11.peatix.com/">イベント情報はこちら</a>
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/ドラクサ.png" alt="" /></div>
+              <p class="works-name">技育CAMPキャラバン2023Vol.1@京都に参加</p>
+              <p class="works-info">
+                2023年4月に京都で行われたハッカソンに同期5人で参加
+                <br>フロントエンドを担当し、HTML/CSSを用いてwebアプリのフロント部分を作成した
+                <br><a class="works-info" href="https://talent.supporterz.jp/events/0a2e9202-83f6-461e-a988-b0cd99e00a88/">イベント情報はこちら</a>
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/qpon-go.jpg" alt="" /></div>
+              <p class="works-name">技育CAMPキャラバン2023Vol.3@金沢にて企業賞を受賞</p>
+              <p class="works-info">
+                2023年7月に金沢で行われたハッカソンに同期5人で参加
+                <br>京都で得た反省を生かしメンバーとの認識すり合わせを綿密に行った
+                <br>収益化案を盛り込むなどプレゼンにも力を入れた
+                <br>バックエンドを担当しPostgreSQLとpsycopg2を用いてデータベース部分を作成した
+                <br>企業賞を受賞し、使用技術や収益化案についてお褒めの言葉を頂いた
+                <br><a class="works-info" href="https://talent.supporterz.jp/events/022464b2-136e-4d26-b1ae-f2d6783d4259/">イベント情報はこちら</a>
+              </p>
+            </div>
+          </div>
+          <p class="subtitle">works</p>
+          <div class="works-list">
+            <div class="works-item">
+              <div class="works-img"><img src="./img/大河診断.jpg" alt="" /></div>
+              <p class="works-name">おすすめ大河ドラマ診断アプリ</p>
+              <p class="works-info">
+                好きな俳優や脚本家などの情報からおすすめの大河ドラマを診断する
+                <br>PythonのStreamlitを用いてデプロイ
+                <br>Flask+HTML/CSS版も作成した
+                <br><a class="works-info" href="https://naka-jo-streamlit-site-site-0e2q4l.streamlit.app/">Streamlit版URLはこちら</a>
+                <br><a class="works-info" href="https://github.com/naka-jo/app_recommendTaiga_st">Streamlit版GitHubリポジトリリンクはこちら</a>
+                <br><a class="works-info" href="https://github.com/naka-jo/app_recommendTaiga">Flask版GitHubリポジトリリンクはこちら</a>
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/BohPJ.jpg" alt="" /></div>
+              <p class="works-name">FloraFinder</p>
+              <p class="works-info">
+                植物学に基づいて植物を分類するWebアプリ
+                <br>Resnet152の転移学習によって分類モデルを構築
+                <br>複数の分類モデルを活用して高い分類精度を実現
+                <br>デザインやUI/UXにもこだわった
+                <br><a class="works-info" href="https://github.com/naka-jo/FloraFinder">GitHubリポジトリリンクはこちら</a>
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/github.jpg" alt="" /></div>
+              <p class="works-name">GitHub</p>
+              <p class="works-info">
+                個人でのコード管理やチームプロジェクトにてGitHubを活用している
+                <br>コミットやマージなどの各コマンド操作を実際に行いながら習得した
+                <br><a class="works-info" href="https://github.com/naka-jo">GitHubリンクはこちら</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container-skill">
+          <h2 class="title">Skill</h2>
+          <div class="works-list">
+            <div class="works-item">
+              <div class="works-img"><img src="./img/python.jpg" alt="" /></div>
+              <p class="works-name">Python</p>
+              <p class="works-info">
+                研究や開発など幅広い用途で使用
+                <br>PandasやPytorch、scikit-learnなどのライブラリも活用
+                <br>FlaskやFastAPIなどのフレームワークを用いてWebアプリ開発も行った
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/nlp.jpg" alt="" /></div>
+              <p class="works-name">自然言語処理</p>
+              <p class="works-info">
+                研究で自然言語処理分野に取り組んでいる
+                <br>テキストデータ整形や固有表現抽出、トークン化、翻訳など
+                <br>様々なタスクに取り組み、スキルを身につけた
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/ml.jpg" alt="" /></div>
+              <p class="works-name">機械学習</p>
+              <p class="works-info">
+                授業や研究、コンペなど様々な場面で機械学習に取り組んでいる
+                <br>scikit-learnやPytorchなど、機械学習ライブラリの扱い方も学習した
+                <br>手を動かして学ぶことに重点を置き学習を進めている
+              </p>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="works-list">
+            <div class="works-item">
+              <div class="works-img"><img src="./img/cv.jpg" alt="" /></div>
+              <p class="works-name">画像処理</p>
+              <p class="works-info">
+                CNNやYOLOv5、OpenCVなど画像処理に関するアルゴリズムやライブラリを使用した経験がある
+                <br>CNNを用いた植物分類モデルやYOLOv5とOpenCVを用いた人数カウントシステムなどを開発した
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/sql.jpg" alt="" /></div>
+              <p class="works-name">SQL</p>
+              <p class="works-info">
+                PostgreSQLを中心に、SQLとデータベースについて学習している
+                <br>Webアプリ開発でもPostgreSQLを活用している
+              </p>
+            </div>
+            <div class="works-item">
+              <div class="works-img"><img src="./img/統計.jpg" alt="" /></div>
+              <p class="works-name">統計</p>
+              <p class="works-info">
+                推測統計学を中心に、統計について学んでいる
+                <br>統計には元々苦手意識があったが、教材を購入し自主学習することで克服した
+                <br>現在は資格取得を目指して学習を続けている
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">Wantedlyかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://www.wantedly.com/id/nakajo_muds" target="_blank" rel="noopener">Wantedly</a>
+            <span class="contact-item">shirononaka.100[at]gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;HIROYUKI NAKAJO</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
 </html>
